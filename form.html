@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+
+<body>
+
+    <h2> Welcome!! </h2>
+
+    <h4> You can fill the details here. </h4> 
+
+      <hr> <br> 
+
+    <!-- Here we start making the form -->
+
+    <form> 
+
+        <div>
+            <label for="reqname"> Name: </label>
+            <input type:"text" name="reqname">
+        </div> <br>
+
+        <div>
+            <label for="reqAge"> Age: </label>
+            <input type="number" name="reqAge">
+        </div> <br>
+        
+        <div>
+            <label for="reqEmail"> Email:   </label>
+            <input type="email" name="reqEmail">
+        </div> <br>
+        
+        <div>
+            <label for="reqdate"> Date of Birth:   </label>
+            <input type="date" name="reqdate">
+        </div> <br>
+        
+        <div>
+            <label for="reqtime">  At what time do you wake up? </label>
+            <input type="time" name="reqtime">
+        </div> <br>
+        
+        <div>
+            <label for="reqgender"> Gender:   </label> 
+            <input type="radio" name="reqgender">   Male
+            <input type="radio" name="reqgender">   Female
+        </div> <br>
+
+        <div>
+            <label for="reqregion">  Region:  </label>
+            <select name="reqregion">
+                <option value="India"> India </option > 
+                <option value="USA" selected> USA </option >
+                <option value="Russia"> Russia</option>
+                <option value="China"> China </option>
+                <option value="Japan"> Japan </option>
+                <option value="Middle East"> Middle East </option>
+                <option value="Rest of Asia"> Rest of Asia </option>
+                <option value="Europe"> Europe </option>
+                <option value="Rest of North America"> Rest of North America </option>
+                <option value="South America"> South America </option>
+                <option value="Australia"> Australia </option>
+            </select>
+        </div> <br>
+        
+        <div>
+            <label for="reqgender"> Are you a chutiya?   </label> 
+            <input type="radio" name="reqgender">   Yes, Definitely 
+            <input type="radio" name="reqgender">   No doubt
+        </div> <br>
+
+        <br> <br> 
+        <div>
+            <input type="checkbox" name="reqagree" checked> 
+             I have read and agree to the Privacy Policy and the Terms and Conditions.
+        </div> <br> <br>
+
+        <div>
+            <label for="reqdescription"> What makes you special? </label> <br>
+            <textarea name="reqdescription" cols="100" rows="5"></textarea>
+        </div> <br>
+
+        <div>
+            
+            <input type="submit" name="reqsubmit">
+            <input type="reset" name="reqreset">
+        </div> <br>
+
+
+
+
+
+
+    </form>
+    
+</body>
+
+</html>
